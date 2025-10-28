@@ -16,6 +16,7 @@ export const IMAGES: string[] = [
   '/images/Foto1.jpg',
   '/images/Foto2.jpg',
   '/images/Foto3.png',
+  '/images/Foto4.jpeg',
 ];
 // --------------------------------------------------
 
@@ -149,7 +150,7 @@ export default function App(): JSX.Element {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {IMAGES.map((src, i) => (
                 <div key={i} className="rounded-xl overflow-hidden shadow-lg bg-black/20">
-                  <img src={src} alt={`Proyecto ${i + 1}`} className="w-full h-56 object-cover" />
+                  <img src={src} alt={`Proyecto ${i + 1}`} className="w-full h-64 object-cover" />
                 </div>
               ))}
             </div>
