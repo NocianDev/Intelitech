@@ -206,9 +206,9 @@ export default function App(): JSX.Element {
                     <span style={{ color: '#f3c200' }}>TECH</span>
                   </div>
                 )}
-                <span className="text-sm text-gray-300">© {new Date().getFullYear()} {COMPANY_NAME}</span>
+                <span className="text-sm text-gray-300">© 2021 {COMPANY_NAME}</span>
               </div>
-              <div className="text-sm text-gray-400">Diseñado para Vercel • Hecho con ❤</div>
+              <div className="text-sm text-gray-400"></div>
             </div>
           </div>
         </footer>
